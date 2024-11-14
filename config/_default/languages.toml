@@ -1,15 +1,20 @@
 # toml-docs-start lang-main
-[en]
-    languageName = "English"
+[vi]
+    languageName = "Tiếng Việt"
     contentDir = "content"
     weight = 1
 # toml-docs-end lang-main
 # toml-docs-start lang-param
-    [en.params.head]
-        tagline = "A Hugo Theme"
-    [en.params.social]
-        title = "Follow me"
-        caption = "I work on everything coding and tweet developer memes"
-    [en.params.footer]
-        # license = "Licensed under Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' class='link-secondary' target='_blank' rel='noopener noreferrer nofollow'>CC BY-NC-SA 4.0</a>)."
+    [vi.params.head]
+        tagline = "Uy Tín Chất Lượng"
+    [vi.params.social]
+        title = "follow us"
+        caption = "Hotline / zalo : 0966171436"
 # toml-docs-end lang-param
+    [vi.params.sections.san-go-cong-nghiep]
+        reference = "Xem Tất Cả Sản Phẩm"
+    [vi.params.sections.san-go-xuong-ca]
+        reference = "Xem Tất Cả Sản Phẩm"
+        [vi.params.sections.gallery]
+        reference = "Xem Tất Cả Dự Án"
+

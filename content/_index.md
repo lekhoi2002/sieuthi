@@ -1,15 +1,11 @@
 ---
-title: Welcome to Hinode!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
-thumbnail:
-    url: /img/sunrise.jpg
-    author: Harris Vo
-    authorURL: https://unsplash.com/@hoanvokim
-    origin: https://unsplash.com/photos/ZX6BPboJrYk
-    originName: Unsplash
-actions:
-  get-started:
-    url: "https://gethinode.com/docs"
-    title: "Get started"
-    icon: "fas book-open"
+title: Kho Ván Sàn Gỗ Tại hà Nội
+keywords:
+    - Kho Ván Sàn Gỗ
 ---
+  
+{{< carousel ratio="16x9" class="col-12 mx-auto p-0" >}}
+{{< img src="img/coffee.jpg" caption="slide 1" >}}
+{{< img src="img/phone.jpg" caption="slide 2" >}}
+{{< img src="img/dunes.jpg" caption="slide 3" >}}
+{{< /carousel >}}

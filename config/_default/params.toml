@@ -1,10 +1,10 @@
 # toml-docs-start main
 [main]
     separator = "-"
-    description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
-    enableDarkMode = true
+    description = "Kho Ván Sàn Gỗ Nhập Khẩu uy tín và lớn nhất khu vực miền bắc."
+    enableDarkMode = false
     enableLanguageSelectionStorage = false
-    modes = ["light", "dark"]
+    modes = ["light"]
     canonifyAssetsURLs = false
     endorse = true
     footerBelowFold = false
@@ -13,22 +13,11 @@
     [main.internalLinks]
         validate = true
     [main.externalLinks]
-        cue = false
-        tab = false
+        cue = true
+        tab = true
     [main.build]
         transpiler = "libsass"
 # toml-docs-end main
-
-# toml-docs-start images
-[images]
-    [images.cloudinary]
-        host = "cloudinary"
-    [images.imagekit]
-        host = "imagekit"
-    [images.imgix]
-        host = "imgix"
-# toml-docs-end images
-
 # toml-docs-start videos
 [videos]
     [videos.cloudinary]
@@ -51,14 +40,14 @@
 
 # toml-docs-start docs
 [docs]
-    github = "https://github.com/gethinode/hinode"
-    release = "https://github.com/gethinode/hinode/releases/tag/"
+    github = "https://github.com//hinode"
+    release = "https://github.com//hinode/releases/tag/"
     checkVersion = false
 # toml-docs-end docs
 
 # toml-docs-start home
 [home]
-    # sections = ["posts"]
+    sections = ["san-go-cong-nghiep", "san-go-xuong-ca", "gallery"]
     fullCover = false
     centerHeadline = false
     style = ""
@@ -73,7 +62,7 @@
 [navigation]
     anchor = true
     logo = "/img/logo_icon.svg"
-    color = "body"
+    color = "primary"
     fixed = true
     overlay = false
     overlayMode = "dark"
@@ -94,7 +83,7 @@
 
 # toml-docs-start sharing
 [sharing]
-    enabled = true
+    enabled = false
     sort = "weight"
     reverse = false
     webshare = true
@@ -132,21 +121,48 @@
 # toml-docs-end sharing
 
 # toml-docs-start sections
-# [sections]
-#     [sections.posts]
-#         title = "Posts"
-#         sort = "date"
-#         reverse = true
-#         nested = true
-#         cols = 3
-#         color = ""
-#         padding = "0"
-#         header = "full"
-#         footer = "none"
-#         orientation = "stacked"
-#         style = "border-0 card-zoom card-body-margin"
-#         homepage = 3
-#         separator = true
+    [sections.san-go-cong-nghiep]
+        title = "Sàn Gỗ Công Nghiệp"
+        layout = "card"
+        sort = "weight"
+        reverse = true
+        background = ""
+        color = "body"
+        style = "border-0 shadow card-zoom card-body-margin"
+        cols = 3
+        padding = "3"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        homepage = 6
+    [sections.san-go-xuong-ca]
+        title = "Sàn Gỗ Công Nghiệp"
+        layout = "card"
+        sort = "weight"
+        reverse = true
+        background = ""
+        color = "body"
+        style = "border-0 shadow card-zoom card-body-margin"
+        cols = 3
+        padding = "3"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        homepage = 6
+    [sections.gallery]
+        title = "Dự Án Đã Thi Công"
+        layout = "card"
+        sort = "date"
+        reverse = true
+        background = ""
+        color = "body-tertiary"
+        style = "border-0 shadow card-zoom card-body-margin"
+        cols = 3
+        padding = "3"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        homepage = 6
 # toml-docs-end sections
 
 [favicon]
@@ -155,7 +171,7 @@
 
 # toml-docs-start theme-colors
 [style]
-    primary = "#d43900"
+    primary = "#04370e"
     secondary = "#6c757d"
     success = "#198754"
     info = "#0dcaf0"
@@ -168,11 +184,10 @@
     darkModeShade = "20%"
     darkModeTint = "40%"
 # toml-docs-start font
-    themeFont = "Inter"
-    # themeFontPath = "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap" # external path
+    themeFont = "forma-djr-micro"
     themeFontPath = "/fonts" # local path
-    themeFontPreload = "/fonts/inter-v12-latin-regular.woff2"
-    fontSizeBase = "1rem" # assumes the browser default, typically '16px'
+    themeFontPreload = "/fonts/FormaDJRCyrillicMicro-Regular.woff2"
+    fontSizeBase = "1.1rem" # assumes the browser default, typically '16px'
 # toml-docs-end font
 # toml-docs-start build
     purge = false
@@ -180,16 +195,16 @@
 
 [schema]
     type = "Organization"
-    name = "Hinode"
-    locale = "en-US"
-    # twitter = "https://twitter.com/gethinode"
+    name = "Kho Ván Sàn Gỗ Nhập Khẩu"
+    locale = "vn-VN"
+    # twitter = "https://twitter.com/"
     # linkedIn = ""
-    github = "https://github.com/gethinode/hinode"
+    github = "https://github.com/"
     section = "blog"
     [schema.author]
         name = "Mark Dumay"
         # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
+        linkedin = "https://www.linkedin.com/in/"
         github = "https://github.com/markdumay"
     [schema.logo]
         url = "img/logo512x512.png"
@@ -202,10 +217,10 @@
 
 [opengraph]
     images = ["logo.png"]
-    locale = "en_US"
+    locale = "vn_VN"
 
 [links]
-    hinode = "https://gethinode.com"
+    hinode = "https://khovansango.com"
 
 # toml-docs-start headers
 [headers]
@@ -236,6 +251,10 @@
     integration = "optional"
     state = "async"
     url = "https://player.vimeo.com/api/player.js"
+[modules.mgallery]
+    local = true
+    integration = "optional"
+    state = "async"
 
 [modules.vimeo.csp]
     frame-src = ["player.vimeo.com"]
