@@ -1,19 +1,17 @@
 # toml-docs-start main
-title = "Kho Sàn Gỗ Nhập khẩu"
+title = "Siêu Thị Sàn Gỗ"
 copyright = "Copyright © 2024"
 enableGitInfo = false
 # toml-docs-end main
 
 # additional settings
-baseURL = "https://khovansango.com/"
+baseURL = "https://sieuthisango.vn/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
 enableInlineShortcodes = true
 summaryLength = 20
 
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
 # toml-docs-start timeout
@@ -153,8 +151,6 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
     path = "github.com/gethinode/mod-google-analytics"
   [[module.imports]]
     path = "github.com/gethinode/mod-utils/v2"
-    [[module.imports]]
-    path = "github.com/myrthos/mod-mgallery"
 # toml-docs-end modules
 
 # toml-docs-start segments
