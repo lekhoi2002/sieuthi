@@ -34,7 +34,7 @@ Dựa trên kết cấu và cấu tạo sàn gỗ tự nhiên Kền Kền có 03
 
 ## Hình ảnh thực tế sàn gỗ tự nhiên Kền Kền đã thi công
 
-## Bảng giá sàn gỗ Kền Kền 05/2023
+## Bảng giá sàn gỗ Kền Kền 
 
 | Loại Sàn Gỗ              | Kích Thước (mm) | Giá vnd/m2 |
 |--------------------------|-----------------|------------|
